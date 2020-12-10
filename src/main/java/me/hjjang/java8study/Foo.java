@@ -1,5 +1,7 @@
 package me.hjjang.java8study;
 
+import java.util.function.Function;
+
 public class Foo {
 
     public static void main(String[] args) {
@@ -40,7 +42,5 @@ public class Foo {
                 return number + baseNumber;
             }
         };
-
-
     }
 }
