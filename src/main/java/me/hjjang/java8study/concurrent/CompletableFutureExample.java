@@ -67,7 +67,7 @@ public class CompletableFutureExample {
             System.out.println(Thread.currentThread().getName());
         }, executorService2);
 
-        future6.get();
+        future7.get();
 
         executorService2.shutdown();
     }
